@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&display=swap');
+
+.font {
+  font-family: 'Hedvig Letters Serif';
+}
+
+.scale:hover{
+  transform: scale(1.1);
+}
+
+.footer{
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.username{
+  color: aqua;
+  text-align: center;
+  text-decoration: underline;
+  text-transform: capitalize;
+  text-shadow:brown;
+  font-family: 'Hedvig Letters Serif', serif;
+  font-weight: 500;
+  padding-inline: 10px;
+}
+
+.login-form{
+  min-width: 100vw;
+  min-height: 100vh;
+}
